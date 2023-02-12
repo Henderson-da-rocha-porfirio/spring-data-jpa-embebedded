@@ -1,6 +1,6 @@
 package com.tuyo.componentmapping.entities;
 
-import javax.persistence.Embeddable;
+import javax.persistence.*;
 
 @Embeddable
 public class Endereco { // É um objeto mas não é uma entidade.

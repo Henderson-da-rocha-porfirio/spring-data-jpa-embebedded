@@ -1,8 +1,6 @@
 package com.tuyo.componentmapping.entities;
 
-import javax.persistence.Embedded;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class Funcionario { // Aqui é usado @Embedded na variável para dizer ao hibernate que este objeto em particular, Endereço, deveria ser Embedded ( imbutido )
