@@ -1,4 +1,4 @@
-# Component Mapping
+# Component Mapping ( ORM )
 #### 1. Nós usamos componente mapping quando nós queremos salvar uma classe que tem um relacionamento com outra classe na mesma tabela do database.
 #### 2. Exemplo:
 ##### a. Temos Funcionario que carrega as informações com todos os seus campos nele e então Funcionario também usa uma classe chamada Endereço com objetos dentro que carregarão a informação endereço na Classe Funcionario que tem um campo chamado endereço dentro dele.
